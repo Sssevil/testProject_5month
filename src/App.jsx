@@ -38,6 +38,7 @@ const App = () => {
                     <div>${product.price}</div>
                 </div>
                 <img src={product.thumbnail} alt={product.title} />
+                <p>{product.description}</p>
                 <div className="product_buttons">
                     <button
                         onClick={buttonPrev}
